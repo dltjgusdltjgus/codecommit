@@ -80,6 +80,7 @@
         </a>
       </li>
     </ul>
+    <h1> dltjgus </h1>
   </div>
 </template>
 
@@ -88,7 +89,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to dltjgus Vue.js App'
     }
   }
 }
