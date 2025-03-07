@@ -12,5 +12,10 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 sync ./dist s3://codecommit-dltjgus
+      - echo "Completed"
+artifacts:
+  files:
+    - dist/**/*
+    - appspec.yml
+    - scripts/*
 
